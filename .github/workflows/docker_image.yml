@@ -29,4 +29,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/erikngigi/akeneo-php-fpm:latest
+          tags: ghcr.io/erikngigi/magento-php-fpm:latest
