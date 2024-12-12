@@ -79,6 +79,6 @@ RUN chown=app:app . /var/www/magento
 # Change current user to www
 USER app
 
-# Expose port 9100 and start php-fpm server
-EXPOSE 9100
+# Expose port 9000 and start php-fpm server
+EXPOSE 9000
 CMD ["php-fpm"]
