@@ -29,4 +29,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/tsrv/magento-php-fpm:latest
+          tags: ghcr.io/tsr-v/magento-php-fpm:latest
