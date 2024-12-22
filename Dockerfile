@@ -55,5 +55,5 @@ RUN groupadd -g 1000 app && \
 USER app
 
 # Expose port 9000 and start php-fpm
-EXPOSE 9100
+EXPOSE 9000
 CMD ["php-fpm"]
